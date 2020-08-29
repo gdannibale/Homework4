@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  background-color: #fdfdfd;
+  font-family: "forte", sans-serif;
+}
+
+header {
+  text-align: center;
+  color: purple;
+  font-family: "Forte", cursive;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5em;
+
+}
+
+input {
+  border: 5px solid purple;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 2em;
+  color: purple;
+  width: 100%;
+}
+
+label {
+  display: block;
+}
+
+
+.status {
+  margin-bottom: 15px;
+}
+
+
+button {
+  text-align: center;
+  height: 60px;
+  width: 100px;
+  margin: 5px;
+  margin-top: 10px;
+  font-size: 1em;
+  background-color: darkblue;
+  border: none;
+  color: darkgray;
+  cursor: pointer;
+}
+
+
+.input-group {
+  text-align: center;
+  margin-top: 20px;
+  float: center;
+  width: 50%;
+  padding: 10px;
+}
+
+.inputs::after {
+  text-align: center;
+  content: " ";
+  display: block;
+  clear: both;
+}
